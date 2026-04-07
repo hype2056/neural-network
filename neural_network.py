@@ -71,7 +71,7 @@ def train(X, Y, learning_rate, iterations):
         dW1, db1, dW2, db2 = backward_pass(Z1, A1, Z2, A2, W2, X, Y)
         W1, b1, W2, b2 = update_params(W1, b1, W2, b2, dW1, db1, dW2, db2, learning_rate)
         
-        if i % 50 == 0:
+        if i % 100 == 0:
             print(f"Iteration {i} | Accuracy: {get_accuracy(A2, Y):.2%}")
     
     return W1, b1, W2, b2
