@@ -92,5 +92,6 @@ predict(X_dev, Y_dev, 0, W1, b1, W2, b2)
 predict(X_dev, Y_dev, 1, W1, b1, W2, b2)
 predict(X_dev, Y_dev, 2, W1, b1, W2, b2)
 predict(X_dev, Y_dev, 3, W1, b1, W2, b2)
+predict(X_dev, Y_dev, 4, W1, b1, W2, b2)
 
 print(X_train.shape)
